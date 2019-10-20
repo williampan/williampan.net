@@ -1,0 +1,9 @@
+baseURL: ""
+languageCode: "en-us"
+title: "William Pan"
+hasCJKLanguage: true
+params: 
+  heading: "Starlight Pavilion"
+frontmatter: 
+  date: 
+    - :filename

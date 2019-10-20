@@ -1,0 +1,4 @@
+---
+Title: the pursuit
+---
+[An interview with Geoff Han](https://walkerart.org/magazine/physical-labor-an-interview-with-geoff-han). This is what you’re doing if you’re here for the craft. You are typesetting *and ragging* an entire book. You are outlining things in InDesign to copy them into Illustrator to warp them. You are pursuing a way to do thermography double-sided on large-scale sheets. You are “masking out a spot color of a photograph, printing the inverse area of the spot color in white ink on colored paper, and then printing the remaining CMYK values on top”; then flying out to a factory in Shenzhen that specializes in UV printing on foiled cigarette boxes to oversee production—so that the reflective surfaces in color photographs are truly reflective in the book.

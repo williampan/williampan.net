@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+
+	<title>{{ .Site.Title }}</title>
+	<meta name="description" content="">
+
+	<link rel="stylesheet" href="/css.css">
+	<link rel="shortcut icon" href="/re_favicon.png">
+</head>
+<body>
+	<div id="content">
+	<header>
+		<a href="/">{{ .Site.Params.Heading }}</a>
+	</header>
+	<main>
+		{{ block "main" . }}
+		{{ end }}
+	</main>
+	<footer>
+	</footer>
+</div>
+</body>
+</html>
