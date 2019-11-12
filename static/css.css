@@ -42,6 +42,25 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: normal;
 }
 
+p + p, 
+ul + p, 
+p + ul, 
+ol + p, 
+p + ol {
+    margin-top: 1rem; 
+}
+
+blockquote {
+    margin: 0; 
+    padding-left: 2rem;
+}
+
+p + blockquote, 
+blockquote + p, 
+blockquote + blockquote {
+    margin-top: 1rem;
+}
+
 ul, ul li, ol, ol li, p {
     margin: 0;
     padding: 0;
@@ -108,7 +127,28 @@ a:visited {
 }
 /* END: Defaults */ 
 
-/* Search form -------------------------------- */ 
+/* Content container ------------------------- */ 
+#content {
+    max-width: 600px; 
+    padding: 1rem; 
+    text-align: center;
+    margin: 0 auto; 
+}
+/* END: Content container */ 
+
+/* Site header ------------------------------- */ 
+header { 
+    text-transform: uppercase; 
+    letter-spacing: 2px; 
+}
+
+header a:link, 
+header a:visited {
+    background-image: none; 
+}
+/* END: Site header */ 
+
+/* Search form ------------------------------- */ 
 .search-form .text, 
 .search-form .submit {
     font-family: inherit; 
@@ -134,28 +174,10 @@ a:visited {
 }
 /* END: Search form */ 
 
-/* Site header ---------------------------------- */ 
-header { 
-    text-transform: uppercase; 
-    letter-spacing: 2px; 
-}
-
-header a:link, 
-header a:visited {
-    background-image: none; 
-}
-/* END: Site header */ 
-
-#content {
-    max-width: 600px; 
-    padding: 1rem; 
-    text-align: center;
-    margin: 0 auto; 
-}
-
+/* Articles ---------------------------------- */ 
 article {
     position: relative;
-    margin: 4rem 0 0; 
+    margin: 3rem 0 0; 
     vertical-align: top;
     display: inline-block;
 }
@@ -166,7 +188,7 @@ article .title a:visited {
 }
 
 .date { 
-    margin-bottom: 2rem; 
+    margin-bottom: 1rem; 
 }
 
 article img {
@@ -179,13 +201,8 @@ article img + img {
     margin-top: 1rem;
 }
 
-.copy, 
-.copy blockquote {
+article .copy {
     text-align: left;
-    margin-left: auto;
-    margin-right: auto;
-
-    max-width: 600px;
     font-variant-numeric: oldstyle-nums;
     -moz-font-feature-settings: 'onum';
     -ms-font-feature-settings: 'onum';
@@ -193,38 +210,7 @@ article img + img {
     font-feature-settings: 'onum';
 }
 
-p + p, 
-ul + p, 
-p + ul, 
-ol + p, 
-p + ol {
-    margin-top: 1rem; 
-}
-
-blockquote {
-    margin: 0; 
-    padding-left: 2rem;
-}
-
-p + blockquote, 
-blockquote + p, 
-blockquote + blockquote {
-    margin-top: 1rem;
-}
-
-.image + .copy, 
-blockquote + .copy {
-    margin-top: 1rem;
-}
-
-.copy + .copy { 
-    margin-top: 2rem;
-} 
-
-.copy {
-    margin-bottom: 2rem; 
-}
-
+/* Tags & permalink (unused) ----------------- */ 
 .tags, 
 .permalink {
     padding-bottom: 1rem; 
@@ -251,6 +237,7 @@ blockquote + .copy {
     clear: none;
 }
 
+/* Pagination -------------------------------- */ 
 #pagination {
     margin-top: 4rem;
     margin-bottom: 3rem; 
