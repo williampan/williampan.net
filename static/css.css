@@ -15,7 +15,7 @@
     font-stretch: normal; 
 }
 
-/* Defaults */ 
+/* Defaults ------------------------------------ */ 
 html, body {
     background: white;
     color: black; 
@@ -108,7 +108,7 @@ a:visited {
 }
 /* END: Defaults */ 
 
-/* Search form */ 
+/* Search form -------------------------------- */ 
 .search-form .text, 
 .search-form .submit {
     font-family: inherit; 
@@ -134,23 +134,32 @@ a:visited {
 }
 /* END: Search form */ 
 
+/* Site header ---------------------------------- */ 
+header { 
+    text-transform: uppercase; 
+    letter-spacing: 2px; 
+}
+
+header a:link, 
+header a:visited {
+    background-image: none; 
+}
+/* END: Site header */ 
+
 #content {
     max-width: 600px; 
-    padding: 5% 5% 10%; 
+    padding: 1rem; 
     text-align: center;
     margin: 0 auto; 
 }
 
 article {
     position: relative;
-    padding: 3rem 0; 
-    margin: 0 auto; 
+    margin: 4rem 0 0; 
     vertical-align: top;
     display: inline-block;
 }
 
-header a:link, 
-header a:visited, 
 article .title a:link, 
 article .title a:visited { 
     background-image: none; 
