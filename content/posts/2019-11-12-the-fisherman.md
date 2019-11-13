@@ -9,6 +9,6 @@ Title: the fisherman
 > 
 > Qu Yuan said, “I have heard that those who have newly washed their hair must flick their hats of dust; those who have newly bathed must shake their clothes of grime. How can I bring the cleanliness of my body to meet the uncleanliness of things? I’d rather swim in the flow of the Xiang and be buried in the stomachs of fish. How can I bring my spotless white to meet the dust of the world? 
 > 
-> The fisherman smiled, hit the oars, and left, singing: “If the waters of Canglang are clear, I can wash my capstrings; if the waters of Canglang are turbid, I can wash my feet.” Thus he left, and did not speak again. 
+> The fisherman smiled, hit the oars, and left, singing: “If the waters of the Canglang are clear, I can wash my capstrings; if the waters of the Canglang are turbid, I can wash my feet.” Thus he left, and did not speak again. 
 
 My translation of [*Yufu* 漁父](https://en.wikipedia.org/wiki/Yu_Fu), “The Fisherman”, a piece from the *Songs of Chu* written some time before the 2nd century. The original Chinese (with added punctuation) is available [here](https://zh.wikisource.org/wiki/%E6%BC%81%E7%88%B6). 
