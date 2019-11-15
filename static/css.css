@@ -116,6 +116,10 @@ a:visited {
     transition: color 0.25s, text-shadow 0.25s, filter 0.25s;
 }
 
+a:hover {
+    color: red; 
+}
+
 .image a {
     border-bottom: none;
 }
@@ -241,12 +245,6 @@ article .copy {
 #pagination {
     margin-top: 4rem;
     margin-bottom: 3rem; 
-    color: #888;
-}
-
-#pagination a {
-    color: black;
-    text-decoration: none;
 }
 
 .post-nav {
