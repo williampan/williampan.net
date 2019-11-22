@@ -11,10 +11,10 @@
 {{ end }}
 <div class="post-nav">
     {{ with $paginator.Prev }}
-        <a href="{{ .Permalink }}">← newer posts</a>
+        <a href="{{ .URL }}">← newer posts</a>
     {{ end }}
     {{ with $paginator.Next }}
-        <a href="{{ .Permalink }}">older posts →</a>
+        <a href="{{ .URL }}">older posts →</a>
     {{ end }}
 </div>
 {{ end }}
