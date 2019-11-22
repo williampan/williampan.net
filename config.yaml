@@ -7,3 +7,9 @@ params:
 frontmatter: 
   date: 
     - :filename
+permalinks: 
+  posts: /:year/:month/:day/:title/
+blackfriday: 
+  fractions: false
+  extensionsmask: 
+    - noIntraEmphasis
