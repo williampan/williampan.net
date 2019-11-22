@@ -11,4 +11,14 @@ Title: the fisherman
 > 
 > The fisherman smiled, hit the oars, and left, singing: “If the waters of the Canglang are clear, I can wash my capstrings; if the waters of the Canglang are turbid, I can wash my feet.” Thus he left, and did not speak again. 
 
-My translation of [*Yufu* 漁父](https://en.wikipedia.org/wiki/Yu_Fu), “The Fisherman”, a narrative poem from the *Songs of Chu* written some time before the 2nd century. Shortly after the events described here, Qu Yuan drowns himself in the Miluo River. The original Chinese (with added punctuation) is available [here](https://zh.wikisource.org/wiki/%E6%BC%81%E7%88%B6). 
+> <span class="proper-noun">屈原</span>旣放，遊於江潭，行吟澤畔，顔色憔悴，形容枯槁。漁父見而問之曰：「子非三閭大夫歟？何故至於斯？」
+>
+> <span class="proper-noun">屈原</span>曰：「擧世皆濁我獨淸，衆人皆醉我獨醒。是以見放。」
+>
+> 漁父曰：「聖人不凝滯於物，而能與世推移。 世人皆濁，何不淈其泥而揚其波？衆人皆醉，何不餔其糟而歠其釃？何故深思高擧，自令放爲？」
+> 
+> <span class="proper-noun">屈原</span>曰：「吾聞之，新沐者必彈冠，新浴者必振衣。安能以身之察察，受物之汶汶者乎？寧赴<span class="proper-noun">湘</span>流，葬於江魚之腹中。安能以皓皓之白，而蒙世俗之塵埃乎？」
+> 
+> 漁父莞爾而笑，鼓枻而去，乃歌曰： 「<span class="proper-noun">滄浪</span>之水淸兮，可以濯吾纓， <span class="proper-noun">滄浪</span>之水濁兮，可以濯吾足。」 遂去，不復與言。 
+
+My translation of [*Yufu* 漁父](https://en.wikipedia.org/wiki/Yu_Fu), “The Fisherman”, a narrative poem from the *Songs of Chu* written some time before the 2nd century. Shortly after the events described here, Qu Yuan drowns himself in the Miluo River. 

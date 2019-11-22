@@ -1,0 +1,8 @@
+---
+Title: unnecessary design
+---
+For a few years now, I’ve been writing my school essays in Markdown and formatting them in InDesign. I did this for several reasons, and the most unjustifiable and the most indulgent of these was I liked the minute control that InDesign offers. I could set acronyms in tracked small-caps; I could enable text numerals; I could use 13/28 Arno instead of double-spaced 12-point Times; I could track proportional numerals slightly to mimic older typesetting. I was better than everyone else! I knew typography! I had, with the help of Adobe Systems Incorporated, taken the MLA standard to new heights!
+
+H., recently, after I showed him one of these finished drafts, remarked, “It looks too nice.”
+
+Graphic designers, especially when starting out, have a tendency to want to design or redesign *everything*: local restaurant menus, movie tickets, beverage cans. School essays. But these things retain their charm precisely because they’re not designed. I intuitively trust a local business more when their website looks like it was cobbled together by the owner’s niece from the plain HTML of the 2000s, and not like some soulless, responsive, JavaScript-frameworked chimera. A movie ticket, similarly, is beautiful because it was inscribed by some cheap analog printer, and because the crumpled paper and the smudged type of a lost ticket looks so natural in the rain gutters, and because it can be thrown away without a second thought once you walk in the theater. These things do not need to be designed. I finish formatting my essays in Microsoft Word, now, and it takes two seconds, and I still hate Word. The double-spaced Times, in the sea of double-spaced Times that my professors will read, somehow seems right.
