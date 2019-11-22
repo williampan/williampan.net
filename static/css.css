@@ -19,7 +19,7 @@
 html, body {
     background: white;
     color: black; 
-    font-family:  'SabonLTPro', 'Times New Roman', Times, Georgia, 'Songti TC', 'HiraMinProN', 'Hiragino Mincho ProN', 'Yu Gothic', 'Hiragino Sans GB', 'Heiti TC', sans-serif; 
+    font-family:  'SabonLTPro', 'Times New Roman', Times, Georgia, 'Noto Serif KR', 'Noto Serif TC', 'Songti TC', 'HiraMinProN', 'Hiragino Mincho ProN', 'Yu Gothic', 'Hiragino Sans GB', 'Heiti TC', sans-serif; 
     font-size: 1.1em;
     line-height: 1.3; 
     padding: 0;
@@ -129,6 +129,14 @@ a:hover {
     border-bottom: none;
     background-color: transparent;
 }
+
+span.proper-noun { 
+    background-image: linear-gradient(to bottom, transparent 50%, rgba(0, 0, 0, 1) 50%);
+    background-position: 0px 96%;
+    background-size: 2px 2px;
+    background-repeat: repeat-x;
+}
+
 /* END: Defaults */ 
 
 /* Content container ------------------------- */ 
