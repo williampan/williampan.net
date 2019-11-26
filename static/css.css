@@ -130,7 +130,7 @@ a:hover {
     background-color: transparent;
 }
 
-span.proper-noun { 
+span.proper-name { 
     background-image: linear-gradient(to bottom, transparent 50%, rgba(0, 0, 0, 1) 50%);
     background-position: 0px 96%;
     background-size: 2px 2px;
