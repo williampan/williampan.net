@@ -21,4 +21,4 @@ Title: the fisherman
 > 
 > 漁父莞爾而笑，鼓枻而去，乃歌曰： 「<span class="proper-name">滄浪</span>之水淸兮，可以濯吾纓， <span class="proper-name">滄浪</span>之水濁兮，可以濯吾足。」 遂去，不復與言。 
 
-My translation of [*Yufu* 漁父](https://en.wikipedia.org/wiki/Yu_Fu), “The Fisherman”, a narrative poem from the *Songs of Chu* written some time before the 2nd century. Shortly after the events described here, Qu Yuan drowns himself in the Miluo River. 
+My translation of [*Yufu* 漁父](https://en.wikipedia.org/wiki/Yu_Fu), “The Fisherman”, a narrative poem from the *Songs of Chu*, which was first anthologized in the second century. Shortly after the events described here, Qu Yuan drowns himself in the Miluo River.
