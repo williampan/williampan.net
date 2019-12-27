@@ -13,3 +13,7 @@ blackfriday:
   fractions: false
   extensionsmask: 
     - noIntraEmphasis
+markup: 
+  goldmark: 
+    renderer: 
+      unsafe: true 
