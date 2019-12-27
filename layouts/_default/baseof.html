@@ -17,12 +17,25 @@
 	<header>
 		<a href="/">{{ .Site.Params.Heading }}</a>
 	</header>
+	<nav>
+		<a href="/">home</a> · <a href="/about">about</a>
+	</nav>
 	<main>
 		{{ block "main" . }}
 		{{ end }}
 	</main>
+	<!-- Image modal --> 
+	<div id="image-modal" class="hide"> 
+		<div id="image-nav">
+			<button type="button" id="prev-image-button">previous</button>
+			<button type="button" id="next-image-button">next</button>
+		</div>
+		<button type="button" id="close-image-button">close</button>
+		<img id="modal-image">
+	</div>
 	<footer>
 	</footer>
 </div>
+<script src="/js.js"></script>
 </body>
 </html>

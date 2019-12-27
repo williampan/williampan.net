@@ -15,6 +15,15 @@
     font-stretch: normal; 
 }
 
+/* Utilities ----------------------------------- */ 
+.hide { 
+    display: none; 
+}
+
+.center { 
+    text-align: center; 
+}
+
 /* Defaults ------------------------------------ */ 
 html, body {
     background: white;
@@ -35,11 +44,29 @@ img {
     max-width: 100%;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6, button {
     margin: 0; 
     padding: 0; 
     font-size: inherit;
     font-weight: normal;
+    font-family: inherit; 
+}
+
+button { 
+    border: 1px solid rgba(0, 0, 0, 0.1); 
+    background: white; 
+    padding: 10px 14px; 
+    transition: color 0.25s; 
+    cursor: pointer;
+}
+
+button:hover, 
+button:active {
+    color: red; 
+}
+
+button:active { 
+    border-color: red; 
 }
 
 p + p, 
@@ -52,7 +79,6 @@ p + ol {
 
 blockquote {
     margin: 0; 
-    padding-left: 2rem;
 }
 
 p + blockquote, 
@@ -141,7 +167,6 @@ span.proper-name {
 
 /* Content container ------------------------- */ 
 #content {
-    max-width: 600px; 
     padding: 1rem; 
     text-align: center;
     margin: 0 auto; 
@@ -159,6 +184,12 @@ header a:visited {
     background-image: none; 
 }
 /* END: Site header */ 
+
+/* Site navigation --------------------------- */ 
+nav a:link, 
+nav a:visited { 
+    background-image: none; 
+}
 
 /* Search form ------------------------------- */ 
 .search-form .text, 
@@ -188,6 +219,7 @@ header a:visited {
 
 /* Articles ---------------------------------- */ 
 article {
+    width: 100%; 
     position: relative;
     margin: 3rem 0 0; 
     vertical-align: top;
@@ -199,8 +231,9 @@ article .title a:visited {
     background-image: none; 
 }
 
-.date { 
-    margin-bottom: 1rem; 
+.title + .copy,
+.date + .copy { 
+    margin-top: 1rem; 
 }
 
 article img {
@@ -220,6 +253,24 @@ article .copy {
     -ms-font-feature-settings: 'onum';
     -webkit-font-feature-settings: 'onum';
     font-feature-settings: 'onum';
+}
+
+article p { 
+    margin-right: auto; 
+    margin-left: auto; 
+    max-width: 34rem; 
+}
+
+article p img { 
+    max-width: calc(100% - 4rem); 
+    display: block; 
+    margin-right: auto; 
+    margin-left: auto; 
+}
+
+blockquote p { 
+    padding-left: 2rem;
+    max-width: calc(34rem - 2rem); 
 }
 
 /* Tags & permalink (unused) ----------------- */ 
@@ -260,11 +311,46 @@ article .copy {
     text-align: center;
 }
 
+/* Image modal -------------------------------- */ 
+#image-modal { 
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+    width: 100%; 
+    min-height: 100%; 
+    z-index: 10; 
+    background-color: white; 
+}
+
+#image-nav, 
+#close-image-button { 
+    position: absolute; 
+    top: 1rem; 
+    z-index: 12;
+}
+
+#image-nav { 
+    left: 1rem; 
+}
+#close-image-button { 
+    right: 1rem; 
+}
+
+#modal-image { 
+    position: absolute; 
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    margin: 0 auto; 
+    max-width: 100%; 
+}
+
 @media screen and (max-width: 768px) {
-    article {
-        padding: 40px 5px; 
-    }
     html, body { 
         font-size: 1rem; 
+    }
+
+    article p img { 
+        max-width: 100%; 
     }
 }
