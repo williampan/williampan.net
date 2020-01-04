@@ -1,5 +1,5 @@
 ---
-Title: tenochtitlan
+Title: Tenochtitlan
 ---
 I read this passage maybe two years ago, and it still strikes me—how quietly violent it is when two worldviews collide. The Aztec capital falls; Cuauhtémoc, its last ruler, is brought before Hernán Cortés:
 

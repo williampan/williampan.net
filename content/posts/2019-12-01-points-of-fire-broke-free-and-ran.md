@@ -1,5 +1,5 @@
 ---
-title: points of fire broke free and ran
+title: Points of Fire Broke Free and Ran
 ---
 Mervyn Peake, *Titus Groan* (1946): 
 

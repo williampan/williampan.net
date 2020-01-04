@@ -1,5 +1,5 @@
 ---
-title: airshafts in the snow
+title: Airshafts in the Snow
 ---
 Iris Chang, *The Chinese in America* (Viking, 2003), p. 60:
 

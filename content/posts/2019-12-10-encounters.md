@@ -1,5 +1,5 @@
 ---
-title: encounters
+title: Encounters
 ---
 At Teotihuacan, a group of schoolgirls on a field trip approached my mother and me and asked to take a photo with us. We may have been the first East Asians they had seen in their lives. Later that day, a boy waved to us and said *Arigato!* My mom replied, in English, That’s Japanese! It means thank you. In Mexico City, a woman walking the other way in a subway station very obviously stopped to take a picture of us with her phone. At the Museo Nacional del Arte, one of the docents approached me and said, *¿Chino, coreano, japonés?* She had to say it again before I understood that she was asking about our nationality. I replied *chino* but quickly realized that I should have said *taiwanés*. 
 

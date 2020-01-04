@@ -1,5 +1,5 @@
 ---
-Title: the left-leaning red–black tree
+Title: The Left-Leaning Red–Black Tree
 ---
 The [left-leaning red–black tree](https://en.wikipedia.org/wiki/Left-leaning_red%E2%80%93black_tree) grows mostly on the Californian coast, in areas with Mediterranean climate. Its thin bark is a deep red, with streaks often approaching black. The leaves are bright green. It has been difficult to classify taxonomically, but botanists generally concur that it is of the same genus as the manzanitas.
 

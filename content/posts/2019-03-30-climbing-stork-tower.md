@@ -1,5 +1,5 @@
 ---
-Title: climbing stork tower
+Title: Climbing Stork Tower
 ---
 ‘Climbing Stork Tower’ (登鸛雀樓), by the Tang-dynasty poet Wang Zhihuan 王之渙 (688–742):
 

@@ -1,5 +1,5 @@
 ---
-Title: the moon we love like a brother
+Title: The Moon We Love Like a Brother
 ---
 Lorde, “Team” (2013): 
 

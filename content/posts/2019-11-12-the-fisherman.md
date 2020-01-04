@@ -1,5 +1,5 @@
 ---
-Title: the fisherman
+Title: The Fisherman
 ---
 > Qu Yuan, recently exiled, wandered the rivers and lakes, walking and singing by the shores of ponds. His countenance was sallow, his posture haggard. A fisherman saw him and asked, “Are you not the Lord of the Three Villages? Why have you arrived here?”
 >

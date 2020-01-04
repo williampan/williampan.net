@@ -1,5 +1,5 @@
 ---
-title: concealment
+title: Concealment
 ---
 Eugene Wang, “[‘The Disarrayed Hills Conceal an Old Monastery’: The Dynamics of Poetry and Painting in the Northern Song][1]”, from *The Rhetoric of Hiddenness in Traditional Chinese Culture* (2016), p. 279: 
 

@@ -1,5 +1,5 @@
 ---
-Title: the boys of the forest
+Title: The Boys of the Forest
 ---
 Listen, boys, of the boys of the forest. The boys of the forest with three hundred eyes do not feed on human flesh but ingest only the finest imported Saharan sand, and thus their teeth are always polished clean. Their eyes are not spread apart like Argus’s but gathered unevenly where human eyes are, so stand far away and they will look normal but approach and you will see the delicate capillaries running across their hundreds of translucent eyelids. The only sacrifices they make for such an ocular experience are their abilities to taste and their proper digestion: violent contortions now seize them when they eat anything but Saharan sand. Some of the boys control their writhing such that they can take a bite of an apple and spit venom, unconsciously and painfully, but with enough skill to stand at precisely the right angle and position so that when they collapse for those few seconds the venom shoots forth sharply on target. I have seen trees wither in front of their teeth, boy and tree flailing in synchrony. But the boy will snap back up and kick the apple away and stare into the wind, while the tree keeps sinking slowly.
 
