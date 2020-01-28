@@ -27,13 +27,14 @@
 	<header>
 		<a href="/">{{ .Site.Params.Heading }}</a>
 	</header>
-	<nav>
-		<a href="/">home</a> · <a href="/about">about</a>
-	</nav>
-	<main>
+	<div class="container">
+		<div class="column">
+			{{ partial "nav.html" . }}
+		</div>
 		{{ block "main" . }}
 		{{ end }}
-	</main>
+	</div>
+	
 	<!-- Image modal --> 
 	<div id="image-modal" class="hide"> 
 		<div id="image-nav">

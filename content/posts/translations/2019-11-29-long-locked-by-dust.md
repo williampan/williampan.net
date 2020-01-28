@@ -1,5 +1,6 @@
 ---
 title: Long Locked by Dust
+display: Chai Lingyu, "Enlightenment Poem"
 ---
 “Enlightenment Poem” (悟道詩) by the Song-dynasty monk Chai Lingyu 柴陵郁 (ca. 11th c.): 
 

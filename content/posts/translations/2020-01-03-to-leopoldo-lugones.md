@@ -1,5 +1,6 @@
 ---
 title: To Leopoldo Lugones
+display: Borges, "To Leopoldo Lugones"
 ---
 
 Jorge Luis Borges, *A Leopoldo Lugones* (in *El hacedor*, 1972), my translation: 

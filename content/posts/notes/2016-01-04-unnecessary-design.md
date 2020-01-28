@@ -1,5 +1,6 @@
 ---
 Title: Unnecessary Design
+category: on design
 ---
 For a few years now, I’ve been writing my school essays in Markdown and formatting them in InDesign. I did this for several reasons, and the most unjustifiable and the most indulgent of these was I liked the minute control that InDesign offers. I could set acronyms in tracked small-caps; I could enable text numerals; I could use 13/28 Arno instead of double-spaced 12-point Times; I could track proportional numerals slightly to mimic older typesetting. I was better than everyone else! I knew typography! I had, with the help of Adobe Systems Incorporated, taken the MLA standard to new heights!
 

@@ -29,7 +29,7 @@ html, body {
     background: white;
     color: black; 
     font-family:  'SabonLTPro', 'Times New Roman', Times, Georgia, 'Noto Serif KR', 'Noto Serif TC', 'Songti TC', 'HiraMinProN', 'Hiragino Mincho ProN', 'Yu Gothic', 'Hiragino Sans GB', 'Heiti TC', sans-serif; 
-    font-size: 1.1em;
+    font-size: 18px;
     line-height: 1.3; 
     padding: 0;
     margin: 0;
@@ -74,7 +74,7 @@ ul + p,
 p + ul, 
 ol + p, 
 p + ol {
-    margin-top: 1rem; 
+    margin-top: 0.65rem; 
 }
 
 blockquote {
@@ -84,7 +84,7 @@ blockquote {
 p + blockquote, 
 blockquote + p, 
 blockquote + blockquote {
-    margin-top: 1rem;
+    margin-top: 0.65rem;
 }
 
 ul, ul li, ol, ol li, p {
@@ -176,7 +176,7 @@ span.proper-name {
 /* Site header ------------------------------- */ 
 header { 
     text-transform: uppercase; 
-    letter-spacing: 2px; 
+    letter-spacing: 1px; 
 }
 
 header a:link, 
@@ -184,12 +184,6 @@ header a:visited {
     background-image: none; 
 }
 /* END: Site header */ 
-
-/* Site navigation --------------------------- */ 
-nav a:link, 
-nav a:visited { 
-    background-image: none; 
-}
 
 /* Search form ------------------------------- */ 
 .search-form .text, 
@@ -217,13 +211,103 @@ nav a:visited {
 }
 /* END: Search form */ 
 
+/* Site structure ---------------------------------- */ 
+.container { 
+    margin-top: 1.3rem; 
+    display: flex; 
+    flex-direction: row; 
+}
+
+div.column, 
+main.column { 
+    flex-basis: 50%; 
+}
+
+@media screen and (max-width: 1200px) { 
+    div.column { 
+        flex-basis: 33.33333%; 
+    }
+
+    main.column { 
+        flex-basis: 66.66666%;
+    }
+}
+
+@media screen and (max-width: 900px) { 
+    .container { 
+        flex-direction: column; 
+    }
+
+    div.column { 
+        
+    }
+
+    main.column { 
+        margin-bottom: 2.6rem; 
+        flex-basis: 0; 
+    }
+
+    div.column { 
+        order: 1; 
+        flex-basis: 0; 
+    }
+
+    .column nav { 
+        margin: 0 auto; 
+    }
+}
+
+@media screen and (max-width: 600px) {
+    html, body { 
+        font-size: 1rem; 
+    }
+}
+
+
+/* Site navigation --------------------------------- */ 
+nav { 
+    text-align: left; 
+    max-width: 250px; 
+    font-size: 1rem; 
+}
+
+nav h1 { 
+    margin-top: 0.65rem; 
+    text-indent: 1.3rem; 
+}
+
+nav ul { 
+    margin-left: 0; 
+}
+
+nav ul li { 
+    padding-left: 1.3rem; 
+    text-indent: -1.3rem; 
+}
+
+nav ul li:before { 
+    content: none; 
+}
+
+nav ul li a:link, 
+nav ul li a:visited { 
+    background-image: none; 
+}
+
+nav .date { 
+    color: #777; 
+}
+
 /* Articles ---------------------------------- */ 
 article {
     width: 100%; 
     position: relative;
-    margin: 3rem 0 0; 
-    vertical-align: top;
-    display: inline-block;
+    margin: 0; 
+    display: block;
+}
+
+article h1.title { 
+    margin-top: 0.65rem; 
 }
 
 article .title a:link, 
@@ -231,9 +315,8 @@ article .title a:visited {
     background-image: none; 
 }
 
-.title + .copy,
-.date + .copy { 
-    margin-top: 1rem; 
+h1.title + .copy { 
+    margin-top: 1.3rem; 
 }
 
 article img {
@@ -243,7 +326,7 @@ article img {
 }
 
 article img + img {
-    margin-top: 1rem;
+    margin-top: 0.65rem;
 }
 
 article .copy {
@@ -255,22 +338,43 @@ article .copy {
     font-feature-settings: 'onum';
 }
 
-article p { 
+article p, 
+article ul, 
+article { 
     margin-right: auto; 
     margin-left: auto; 
-    max-width: 34rem; 
-}
-
-article p img { 
-    max-width: calc(100% - 4rem); 
-    display: block; 
-    margin-right: auto; 
-    margin-left: auto; 
+    max-width: 30rem; 
 }
 
 blockquote p { 
-    padding-left: 2rem;
-    max-width: calc(34rem - 2rem); 
+    padding-left: 1.3rem;
+    max-width: calc(30rem - 1.3rem); 
+}
+
+article .date { 
+    margin-top: 0.65rem; 
+    text-align: left; 
+    padding-left: 1.3rem; 
+    color: #777; 
+}
+
+@media screen and (max-width: 900px) { 
+    /* header { 
+        text-align: left; 
+    }
+    
+    article h1, 
+    article .date { 
+        text-align: left; 
+        margin-left: 1.3rem; 
+    }
+
+    article p,
+    article ul, 
+    article { 
+        margin-right: 0; 
+        margin-left: 0; 
+    } */
 }
 
 /* Tags & permalink (unused) ----------------- */ 
@@ -345,12 +449,4 @@ blockquote p {
     max-width: 100%; 
 }
 
-@media screen and (max-width: 768px) {
-    html, body { 
-        font-size: 1rem; 
-    }
 
-    article p img { 
-        max-width: 100%; 
-    }
-}
