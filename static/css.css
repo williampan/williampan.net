@@ -14,6 +14,20 @@
     font-style: italic;
     font-stretch: normal; 
 }
+@font-face { 
+    font-family: 'Portrait Text'; 
+    src: url('PortraitText-Regular-Web.woff'); 
+    font-weight: 400; 
+    font-style: normal; 
+    font-stretch: normal; 
+}
+@font-face { 
+    font-family: 'Portrait Text'; 
+    src: url('PortraitText-RegularItalic-Web.woff'); 
+    font-weight: 400; 
+    font-style: italic; 
+    font-stretch: normal; 
+}
 
 /* Utilities ----------------------------------- */ 
 .hide { 
@@ -28,7 +42,7 @@
 html, body {
     background: white;
     color: black; 
-    font-family:  'SabonLTPro', 'Times New Roman', Times, Georgia, 'Noto Serif KR', 'Noto Serif TC', 'Songti TC', 'HiraMinProN', 'Hiragino Mincho ProN', 'Yu Gothic', 'Hiragino Sans GB', 'Heiti TC', sans-serif; 
+    font-family:   'Old Standard TT', 'Times New Roman', Times, Georgia, 'Noto Serif KR', 'Noto Serif TC', 'Songti TC', 'HiraMinProN', 'Hiragino Mincho ProN', 'Yu Gothic', 'Hiragino Sans GB', 'Heiti TC', sans-serif; 
     font-size: 18px;
     line-height: 1.3; 
     padding: 0;
@@ -176,7 +190,7 @@ span.proper-name {
 /* Site header ------------------------------- */ 
 header { 
     text-transform: uppercase; 
-    letter-spacing: 1px; 
+    letter-spacing: 5px; 
 }
 
 header a:link, 
@@ -273,7 +287,7 @@ nav {
 
 nav h1 { 
     margin-top: 0.65rem; 
-    text-indent: 1.3rem; 
+    margin-left: 1.3rem; 
 }
 
 nav ul { 
@@ -319,7 +333,15 @@ h1.title + .copy {
     margin-top: 1.3rem; 
 }
 
+article figcaption { 
+    margin-top: 1.3em; 
+    margin-bottom: 1.3em; 
+    text-align: center; 
+}
+
 article img {
+    display: block; 
+    margin: 0 auto; 
     max-width: 100%;
     max-height: 600px;
     text-decoration: none;
@@ -446,7 +468,8 @@ article .date {
     left: 50%; 
     transform: translate(-50%, -50%); 
     margin: 0 auto; 
-    max-width: 100%; 
+    max-width: 100%;
+    max-height: 100%;  
 }
 
 

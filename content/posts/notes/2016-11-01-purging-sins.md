@@ -1,5 +1,6 @@
 ---
 title: Purging Sins
+draft: true
 ---
 Carmen Boullosa on Roberto Bolaño, from [an interview](https://bombmagazine.org/articles/roberto-bola%c3%b1o/) in *Bomb* 78 (winter 2002): 
 
