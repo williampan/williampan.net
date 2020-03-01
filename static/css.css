@@ -15,17 +15,17 @@
     font-stretch: normal; 
 }
 @font-face { 
-    font-family: 'Portrait Text'; 
-    src: url('PortraitText-Regular-Web.woff'); 
-    font-weight: 400; 
-    font-style: normal; 
+    font-family: 'Old Standard TT';
+    src: url('oldstandard-regular-subset.woff') format('woff'), url('oldstandard-regular-subset.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
     font-stretch: normal; 
 }
 @font-face { 
-    font-family: 'Portrait Text'; 
-    src: url('PortraitText-RegularItalic-Web.woff'); 
-    font-weight: 400; 
-    font-style: italic; 
+    font-family: 'Old Standard TT';
+    src: url('oldstandard-italic-subset.woff') format('woff'), url('oldstandard-italic-subset.woff2') format('woff2');
+    font-weight: 400;
+    font-style: italic;
     font-stretch: normal; 
 }
 
@@ -42,7 +42,7 @@
 html, body {
     background: white;
     color: black; 
-    font-family:   'Old Standard TT', 'Times New Roman', Times, Georgia, 'Noto Serif KR', 'Noto Serif TC', 'Songti TC', 'HiraMinProN', 'Hiragino Mincho ProN', 'Yu Gothic', 'Hiragino Sans GB', 'Heiti TC', sans-serif; 
+    font-family:  'Old Standard TT', 'Times New Roman', Times, Georgia, 'Noto Serif KR', 'Noto Serif TC', 'Songti TC', 'HiraMinProN', 'Hiragino Mincho ProN', 'Yu Gothic', 'Hiragino Sans GB', 'Heiti TC', sans-serif; 
     font-size: 18px;
     line-height: 1.3; 
     padding: 0;
