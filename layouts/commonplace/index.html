@@ -1,0 +1,21 @@
+{{ define "stylesheet"}}
+    <link rel="stylesheet" href="/commonplace.css">
+{{ end }}
+
+{{ define "title"}}{{ .Title }} · {{ .Site.Title }}{{ end }}
+
+{{ define "main" }}
+<main class="column">
+	<article>
+		<h1 class="title">{{ .Title }}</h1>
+		<div class="copy">
+            {{ range .Params.quotes }}
+            <div class="quote">
+                <p>{{ .quote | markdownify }}</p>
+                <p class="source">{{ .source | markdownify }}</p>
+            </div>
+            {{ end }}
+        </div>
+	</article>
+</main>
+{{ end }}

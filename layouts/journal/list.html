@@ -1,0 +1,28 @@
+{{ define "title" }}{{ .Site.Title }}{{ end }}
+
+{{ define "stylesheet"}}
+    <link rel="stylesheet" href="/journal.css">
+{{ end }}
+
+{{ define "main" }}
+<main class="column journal">
+    <h1 class="title">Journal</h1>
+{{ $paginator := .Paginate (where .Site.RegularPages "Section" "journal") }}
+{{ range $paginator.Pages }}
+    <article>
+        <div class="date">{{ .Date.Format "Monday, January 2, 2006" }}</div>
+        <div class="copy">
+            {{ .Content }}
+        </div>
+    </article>
+{{ end }}
+<div class="post-nav">
+    {{ with $paginator.Prev }}
+        <a href="{{ .URL }}">← newer posts</a>
+    {{ end }}
+    {{ with $paginator.Next }}
+        <a href="{{ .URL }}">older posts →</a>
+    {{ end }}
+</div>
+</main>
+{{ end }} {{/* end main */}}

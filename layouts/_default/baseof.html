@@ -8,6 +8,7 @@
 	<meta name="description" content="">
 
 	<link rel="stylesheet" href="/css.css">
+	{{ block "stylesheet" . }}{{ end }}
 	<link rel="shortcut icon" href="/re_favicon.png">
 	<link href="https://fonts.googleapis.com/css?family=Noto+Serif+KR&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Noto+Serif+TC&display=swap" rel="stylesheet">  
@@ -31,8 +32,7 @@
 		<div class="column">
 			{{ partial "nav.html" . }}
 		</div>
-		{{ block "main" . }}
-		{{ end }}
+		{{ block "main" . }}{{ end }}
 	</div>
 	
 	<!-- Image modal --> 

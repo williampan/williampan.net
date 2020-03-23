@@ -1,6 +1,7 @@
 {{ define "title"}}{{ .Title }} · {{ .Site.Title }}{{ end }}
 
 {{ define "main" }}
+<main class="column">
 {{ $paginator := .Paginate .Pages }}
 {{ range $paginator.Pages }}
     <article>
@@ -17,4 +18,5 @@
         <a href="{{ .URL }}">older posts →</a>
     {{ end }}
 </div>
+</main>
 {{ end }}

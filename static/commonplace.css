@@ -1,0 +1,9 @@
+/* Commonplace book -------------------------- */ 
+.quote + .quote { 
+    margin-top: 0.65em; 
+}
+
+p.source { 
+    margin-top: 0;
+    color: #777; 
+}
