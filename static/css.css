@@ -194,9 +194,12 @@ header {
 }
 
 header a:link, 
-header a:visited {
+header a:visited, 
+h1 a:link, 
+h1 a:visited {
     background-image: none; 
 }
+ 
 /* END: Site header */ 
 
 /* Search form ------------------------------- */ 
@@ -428,13 +431,13 @@ article .date {
 
 /* Pagination -------------------------------- */ 
 #pagination {
-    margin-top: 4rem;
-    margin-bottom: 3rem; 
+    margin-top: 2.6rem;
+    margin-bottom: 2.6rem; 
 }
 
 .post-nav {
-    margin-top: 100px;
-    text-align: center;
+    margin-top: 2.6rem;
+    margin-bottom: 3.9rem; 
 }
 
 /* Image modal -------------------------------- */ 

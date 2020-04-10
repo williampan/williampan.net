@@ -6,7 +6,7 @@
 
 {{ define "main" }}
 <main class="column journal">
-    <h1 class="title">Journal</h1>
+    <h1 class="title"><a href="/journal">Journal</a></h1>
 {{ $paginator := .Paginate (where .Site.RegularPages "Section" "journal") }}
 {{ range $paginator.Pages }}
     <article>
@@ -18,7 +18,8 @@
 {{ end }}
 <div class="post-nav">
     {{ with $paginator.Prev }}
-        <a href="{{ .URL }}">← newer posts</a>
+        <a href="{{ .URL }}">← newer posts</a> 
+        {{ with $paginator.Next }} · {{ end }}
     {{ end }}
     {{ with $paginator.Next }}
         <a href="{{ .URL }}">older posts →</a>
