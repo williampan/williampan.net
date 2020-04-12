@@ -42,7 +42,7 @@
 html, body {
     background: white;
     color: black; 
-    font-family:  'SabonLTPro', 'Old Standard TT', 'Times New Roman', Times, Georgia, 'Noto Serif KR', 'Noto Serif TC', 'Songti TC', 'HiraMinProN', 'Hiragino Mincho ProN', 'Yu Gothic', 'Hiragino Sans GB', 'Heiti TC', sans-serif; 
+    font-family:  'Old Standard TT', 'Times New Roman', Times, Georgia, 'Noto Serif KR', 'Noto Serif TC', 'Songti TC', 'HiraMinProN', 'Hiragino Mincho ProN', 'Yu Gothic', 'Hiragino Sans GB', 'Heiti TC', sans-serif; 
     font-size: 18px;
     line-height: 1.3; 
     padding: 0;
