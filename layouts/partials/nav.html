@@ -4,7 +4,7 @@
     <h1><a href="/journal">Journal</a></h1>
     <h1>Fiction</h1>
     <ul> 
-        {{ range where .Site.RegularPages "Dir" "posts/fiction/" }}
+        {{ range where .Site.RegularPages "Dir" "fiction/" }}
             <li>
                 <a href="{{ .URL }}"> {{ default .Params.Title .Params.display | markdownify }} </a> <span class="date">{{ .Date.Format "2006" }}</span>
             </li>
@@ -12,7 +12,7 @@
     </ul>
     <h1>Translations</h1>
     <ul>
-        {{ range where .Site.RegularPages "Dir" "posts/translations/" }}
+        {{ range where .Site.RegularPages "Dir" "translations/" }}
             <li>
                 <a href="{{ .URL }}"> {{ default .Params.Title .Params.display | markdownify }}</a> <span class="date">{{ .Date.Format "2006" }}</span>
             </li>
@@ -20,7 +20,7 @@
     </ul>
     <h1>Notes</h1>
     <ul> 
-        {{ range where .Site.RegularPages "Dir" "posts/notes/" }}
+        {{ range where .Site.RegularPages "Dir" "notes/" }}
             <li>
                 <a href="{{ .URL }}"> {{ default .Params.Title .Params.display | markdownify }} </a> <span class="date">{{ .Date.Format "2006" }}</span>
             </li>
