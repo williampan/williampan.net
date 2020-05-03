@@ -5,6 +5,7 @@
 	<article>
 		<h1 class="title">{{ .Title }}</h1>
 		<div class="copy">{{ .Content }}</div>
+		<div class="date">{{ .Date.Format "January 2006" }}</div>
 	</article>
 </main>
 {{ end }}
