@@ -1,0 +1,20 @@
+{{ define "title" }}{{ .Date.Format "January 2, 2006" }} · Journal · {{ .Site.Title }}{{ end }}
+
+{{ define "stylesheet"}}
+    <link rel="stylesheet" href="/journal.css">
+{{ end }}
+
+{{ define "main" }}
+<main class="column journal">
+    <h1 class="title"><a href="/journal">Journal</a></h1>
+    <article>
+        <a href="{{ .Permalink }}"><div class="date">{{ .Date.Format "Monday, January 2, 2006" }}</div></a>
+        <div class="copy">
+            {{ .Content }}
+        </div>
+    </article>
+	<div class="post-nav">
+		<a href="/journal">← all entries</a> 
+	</div>
+</main>
+{{ end }} {{/* end main */}}
