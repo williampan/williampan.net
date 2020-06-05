@@ -3,7 +3,7 @@
 {{ define "main" }}
 <main class="column">
 	<article>
-		<h1 class="title">{{ .Title }}</h1>
+		<h1 class="title">{{ .Title | markdownify }}</h1>
 		<div class="copy">{{ .Content }}</div>
 		<div class="date">{{ .Date.Format "January 2006" }}</div>
 	</article>
