@@ -10,7 +10,9 @@
 {{ $paginator := .Paginate (where .Site.RegularPages "Section" "journal") }}
 {{ range $paginator.Pages }}
     <article>
-        <a href="{{ .Permalink }}"><div class="date">{{ .Date.Format "Monday, January 2, 2006" }}</div></a>
+        <a href="{{ .Permalink }}">
+            <div class="date">{{ .Date.Format "Monday, January 2, 2006" }}</div>
+        </a>
         <div class="copy">
             {{ .Content }}
         </div>
