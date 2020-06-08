@@ -107,13 +107,13 @@ li + li {
 ol {
     list-style-type: none;
     counter-reset: list;
-    margin-left: 2rem;
+    margin-left: 1.3rem;
 }
     ol > li:before {
         position: absolute;
         counter-increment: list;
         content: counter(list);
-        margin-left: -2rem;
+        margin-left: -1.3rem;
     }
     
 ul {
@@ -352,7 +352,7 @@ article {
 }
 
 article ul { 
-    padding-left: 2rem; 
+    padding-left: 1.3rem; 
 }
 
 blockquote p { 
