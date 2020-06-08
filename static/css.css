@@ -83,27 +83,25 @@ button:active {
     border-color: red; 
 }
 
-p + p, 
-ul + p, 
-p + ul, 
-ol + p, 
-p + ol {
-    margin-top: 0.65rem; 
-}
-
 blockquote {
     margin: 0; 
-}
-
-p + blockquote, 
-blockquote + p, 
-blockquote + blockquote {
-    margin-top: 0.65rem;
 }
 
 ul, ul li, ol, ol li, p {
     margin: 0;
     padding: 0;
+}
+
+p + p, 
+ul + p, 
+p + ul, 
+ol + p, 
+p + ol, 
+p + blockquote, 
+blockquote + p, 
+blockquote + blockquote, 
+li + li {
+    margin-top: 0.65rem;
 }
 
 ol {
@@ -279,6 +277,7 @@ nav ul {
 }
 
 nav ul li { 
+    margin: 0; 
     padding-left: 1.3rem; 
     text-indent: -1.3rem; 
 }
