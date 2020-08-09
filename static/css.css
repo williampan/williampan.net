@@ -42,8 +42,8 @@
 html, body {
     background: white;
     color: black; 
-    font-family: 'Sabon', 'Times New Roman', Times, Georgia, 'Noto Serif KR', 'Noto Serif JP', 'Noto Serif TC', 'Songti TC', 'HiraMinProN', 'Hiragino Mincho ProN', 'Yu Gothic', 'Hiragino Sans GB', 'Heiti TC', sans-serif; 
-    font-size: 18px;
+    font-family: 'Old Standard TT', 'Times New Roman', Times, Georgia, 'Noto Serif KR', 'Noto Serif JP', 'Noto Serif TC', 'Songti TC', 'HiraMinProN', 'Hiragino Mincho ProN', 'Yu Gothic', 'Hiragino Sans GB', 'Heiti TC', sans-serif; 
+    font-size: 16px;
     line-height: 1.3; 
     padding: 0;
     margin: 0;
@@ -199,35 +199,8 @@ h1 a:visited {
  
 /* END: Site header */ 
 
-/* Search form ------------------------------- */ 
-.search-form .text, 
-.search-form .submit {
-    font-family: inherit; 
-    font-size: inherit;
-    color: inherit;
-    margin-bottom: 30px;
-    margin-top: 50px; 
-    border-radius: 0;
-    background: transparent; 
-}
-
-.search-form .text {
-    width: 200px;
-    font-family: inherit;
-    border: none;
-    border-bottom: 1px solid black;
-}
-.search-form .submit {
-    border: none; 
-}
-.search-form .submit:hover {
-    color: red; 
-}
-/* END: Search form */ 
-
 /* Site structure ---------------------------------- */ 
 .container { 
-    margin-top: 1.3rem; 
     display: flex; 
     flex-direction: row; 
 }
