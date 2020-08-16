@@ -175,6 +175,14 @@ span.proper-name {
     background-repeat: repeat-x;
 }
 
+hr { 
+    border: none; 
+    text-align: center; 
+}
+hr:after {
+    content: "*";
+}
+
 /* END: Defaults */ 
 
 /* Content container ------------------------- */ 
