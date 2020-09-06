@@ -1,6 +1,9 @@
 ---
 draft: true
 ---
+Until recent decades, Chinese printing and type design followed a single standard of character structure that was used throughout East Asia. In the mid- and late 20th century, however, different governments across the region enacted script reforms that modified this standard in different ways. These script reforms impeded communication between regions and promoted the widespread use of character forms that ignored aesthetic, semantic, and cultural concerns. Fortunately, the traditional standard continues to be used, and I believe that it should remain the default standard of legibility for most typographic applications. In what follows, I will briefly introduce the advantages of the traditional standard, the flaws of the new standards, and things to pay attention to when trying to typeset in the traditional standard. 
+
+When talking about the appearance of Chinese characters, it is useful to draw a distinction between a character's *structure* and its *style*. Structure refers to which strokes the character is composed of and how the strokes are arranged, while style refers to what the strokes look like. If applied to the Latin alphabet, a single- and double-story g would have different structures, while a double-story g in a garalde and in a grotesque would have the same structure but different styles. The boundaries of this distinction are vague, but it's a useful one to make nonetheless. Standards of Chinese orthography generally prescribe the structure of each character but not its style, in an effort to maintain standards of legibility while preserving typographic diversity. The terms "simplified" and "traditional" Chinese thus refer to character structure, not style.
 
 
 This will be the first in a series of posts about Chinese typography.
