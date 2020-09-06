@@ -288,6 +288,12 @@ h1.title {
     margin-top: 0.65rem; 
 }
 
+h2 { 
+    margin-top: 1.3rem; 
+    margin-bottom: 0.65rem; 
+    margin-left: 1.3rem; 
+}
+
 article .title a:link, 
 article .title a:visited { 
     background-image: none; 
