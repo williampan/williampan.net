@@ -14,8 +14,11 @@ blackfriday:
   extensionsmask: 
     - noIntraEmphasis
 markup: 
+  # https://gohugo.io/getting-started/configuration-markup#goldmark
+  # https://github.com/yuin/goldmark/
   goldmark: 
     extensions: 
       typographer: true
     renderer: 
-      unsafe: true 
+      unsafe: true # render raw HTML
+      hardWraps: true # render newlines as <br>
