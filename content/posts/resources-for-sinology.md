@@ -1,5 +1,6 @@
 ---
 title: Resources for Sinology
+draft: true
 --- 
 This is a list of resources for sinology, mostly lexicographic reference works. 
 

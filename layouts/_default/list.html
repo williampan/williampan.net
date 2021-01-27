@@ -1,22 +1,18 @@
 {{ define "title"}}{{ .Title }} · {{ .Site.Title }}{{ end }}
 
 {{ define "main" }}
-<main class="column">
-{{ $paginator := .Paginate .Pages }}
-{{ range $paginator.Pages }}
-    <article>
-        <h1 class="title"><a href="{{ .Permalink }}">{{ .Title }}</a></h1>
-        <div class="date">{{ .Date.Format "2006 · 01 · 02" }}</div>
-        <div class="copy">{{ .Content }}</div>
-    </article>
-{{ end }}
-<div class="post-nav">
-    {{ with $paginator.Prev }}
-        <a href="{{ .URL }}">← newer posts</a>
-    {{ end }}
-    {{ with $paginator.Next }}
-        <a href="{{ .URL }}">older posts →</a>
-    {{ end }}
-</div>
+<main class="column list">
+    <div class="list">
+        <h1 class="title">{{ .Title | markdownify }}</h1>
+        <ul>
+        {{ range .Pages }}
+            <li>
+                <div class="title"><a href="{{ .Permalink }}">{{ .Title }}</a></div>
+                <!-- <div class="copy">{{ .Content }}</div> -->
+            </li>
+        {{ end }}
+        </ul>
+    </div>
+    
 </main>
 {{ end }}

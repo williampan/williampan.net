@@ -1,29 +1,13 @@
-@font-face {
-    font-family: 'Sabon';
-    src: url('SabonLTPro-Roman.eot');
-    src: url('SabonLTPro-Roman.eot?#iefix') format('embedded-opentype'), url('SabonLTPro-Roman.woff') format('woff'), url('SabonLTPro-Roman.woff2') format('woff2');
-    font-weight: 400;
-    font-style: normal;
-    font-stretch: normal; 
-}
-@font-face {
-    font-family: 'Sabon';
-    src: url('SabonLTPro_Italic.eot');
-    src: url('SabonLTPro_Italic.eot?#iefix') format('embedded-opentype'), url('SabonLTPro_Italic.woff') format('woff'), url('SabonLTPro_Italic.woff2') format('woff2');
-    font-weight: 400;
-    font-style: italic;
-    font-stretch: normal; 
-}
 @font-face { 
-    font-family: 'Old Standard TT';
-    src: url('oldstandard-regular-subset.woff') format('woff'), url('oldstandard-regular-subset.woff2') format('woff2');
+    font-family: 'Portrait';
+    src: url('Portrait-Regular-Web.woff') format('woff'), url('Portrait-Regular-Web.woff2') format('woff2');
     font-weight: 400;
     font-style: normal;
     font-stretch: normal; 
 }
 @font-face { 
-    font-family: 'Old Standard TT';
-    src: url('oldstandard-italic-subset.woff') format('woff'), url('oldstandard-italic-subset.woff2') format('woff2');
+    font-family: 'Portrait';
+    src: url('Portrait-RegularItalic-Web.woff') format('woff'), url('Portrait-RegularItalic-Web.woff2') format('woff2');
     font-weight: 400;
     font-style: italic;
     font-stretch: normal; 
@@ -42,9 +26,9 @@
 html, body {
     background: white;
     color: black; 
-    font-family: 'Old Standard TT', 'Times New Roman', Times, Georgia, 'Noto Serif KR', 'Noto Serif JP', 'Noto Serif TC', 'Songti TC', 'HiraMinProN', 'Hiragino Mincho ProN', 'Yu Gothic', 'Hiragino Sans GB', 'Heiti TC', sans-serif; 
-    font-size: 16px;
-    line-height: 1.3; 
+    font-family: 'Portrait', 'Times New Roman', Georgia, 'Noto Serif KR', 'Noto Serif JP', 'Noto Serif TC', 'Songti TC', 'HiraMinProN', 'Hiragino Mincho ProN', 'Yu Gothic', 'Hiragino Sans GB', 'Heiti TC', serif; 
+    font-size: 22px;
+    line-height: 1.25; 
     padding: 0;
     margin: 0;
     font-variant-numeric: oldstyle-nums;
@@ -101,19 +85,19 @@ p + blockquote,
 blockquote + p, 
 blockquote + blockquote, 
 li + li {
-    margin-top: 0.65rem;
+    margin-top: calc(0.5 * 1.25rem);
 }
 
 ol {
     list-style-type: none;
     counter-reset: list;
-    margin-left: 1.3rem;
+    margin-left: 1.25rem;
 }
     ol > li:before {
         position: absolute;
         counter-increment: list;
         content: counter(list);
-        margin-left: -1.3rem;
+        margin-left: -1.25rem;
     }
     
 ul {
@@ -146,12 +130,6 @@ a:link,
 a:visited {
     color: inherit;
     text-decoration: none;
-    background-image: linear-gradient(to bottom, transparent 50%, rgba(0, 0, 0, 0.25) 50%);
-    background-position: 0px 92%;
-    background-size: 2px 2px;
-    background-repeat: repeat-x;
-    background-color: transparent;
-    transition: color 0.25s, text-shadow 0.25s, filter 0.25s;
 }
 
 a:hover {
@@ -183,26 +161,41 @@ hr:after {
     content: "*";
 }
 
+abbr, 
+.small-caps {
+    font-feature-settings: "c2sc" 1; 
+    letter-spacing: 1px;
+}
+
 /* END: Defaults */ 
 
 /* Content container ------------------------- */ 
 #content {
-    padding: 1.3rem; 
+    padding: 1.25rem 1.25rem calc(3 * 1.25rem); 
     margin: 0 auto; 
 }
 /* END: Content container */ 
 
 /* Site header ------------------------------- */ 
 header { 
-    text-transform: uppercase; 
-    letter-spacing: 5px; 
+    text-align: center;
+    width: 100%; 
+    padding-bottom: 1.25rem;
 }
 
-header a:link, 
-header a:visited, 
-h1 a:link, 
-h1 a:visited {
-    background-image: none; 
+header .site-title {
+    margin: 0 auto; 
+    letter-spacing: 1px; 
+    font-feature-settings: "c2sc" 1;
+}
+
+header nav {
+    margin: 0 auto; 
+}
+
+nav a {
+    display: inline-block; 
+    padding: 0 10px; 
 }
  
 /* END: Site header */ 
@@ -210,7 +203,7 @@ h1 a:visited {
 /* Site structure ---------------------------------- */ 
 .container { 
     display: flex; 
-    flex-direction: row; 
+    flex-direction: column; 
 }
 
 @media screen and (max-width: 900px) { 
@@ -219,7 +212,7 @@ h1 a:visited {
     }
 
     main.column { 
-        margin-bottom: 2.6rem; 
+        margin-bottom: calc(2 * 1.25rem); 
         flex-basis: 0; 
     }
 
@@ -235,22 +228,23 @@ h1 a:visited {
 
 @media screen and (max-width: 600px) {
     html, body { 
-        font-size: 1rem; 
+        font-size: 18px; 
+        line-height: 1.2; 
     }
 }
 
 
 /* Site navigation --------------------------------- */ 
-nav { 
+/* nav { 
     text-align: left; 
-    max-width: calc(10 * 1.3rem); 
+    max-width: calc(10 * 1.25rem); 
     font-size: 1rem; 
-    margin-right: calc(1.3rem)
+    margin-right: calc(1.25rem)
 }
 
 nav h1 { 
-    margin-top: 0.65rem; 
-    margin-left: 1.3rem; 
+    margin-top: calc(0.5 * 1.25rem); 
+    margin-left: 1.25rem; 
 }
 
 nav ul { 
@@ -259,8 +253,8 @@ nav ul {
 
 nav ul li { 
     margin: 0; 
-    padding-left: 1.3rem; 
-    text-indent: -1.3rem; 
+    padding-left: 1.25rem; 
+    text-indent: -1.25rem; 
 }
 
 nav ul li:before { 
@@ -274,6 +268,12 @@ nav ul li a:visited {
 
 nav .date { 
     color: #777; 
+} */
+
+/* Home ---------------------------------- */ 
+.home {
+    margin: 1.25rem auto; 
+    max-width: 800px; 
 }
 
 /* Articles ---------------------------------- */ 
@@ -285,49 +285,53 @@ article {
 }
 
 h1.title { 
-    margin-top: 0.65rem; 
+    margin-top: calc(0.5 * 1.25rem); 
+    text-align: center; 
+    font-feature-settings: "c2sc" 1; 
+    letter-spacing: 2px;
 }
 
 h2 { 
-    margin-top: 1.3rem; 
-    margin-bottom: 0.65rem; 
-    margin-left: 1.3rem; 
-}
-
-article .title a:link, 
-article .title a:visited { 
-    background-image: none; 
+    margin-top: 1.25rem; 
+    margin-bottom: calc(0.5 * 1.25rem); 
+    margin-left: 1.25rem; 
 }
 
 h1.title + .copy { 
-    margin-top: 1.3rem; 
+    margin-top: 1.25rem; 
 }
 
 article figcaption { 
-    margin-top: 1.3em; 
-    margin-bottom: 1.3em; 
-    margin-left: 1.3rem; 
+    margin-top: 1.25em; 
+    margin-bottom: 1.25em; 
+    margin-left: 1.25rem; 
 }
 
 article img {
     display: block; 
     margin: 0 auto; 
     max-width: 100%;
-    max-height: 600px;
+    max-height: calc(21 * 1.25rem);
     text-decoration: none;
 }
 
 article img + img {
-    margin-top: 0.65rem;
+    margin-top: calc(0.5 * 1.25rem);
 }
 
 article .copy {
     text-align: left;
-    font-variant-numeric: oldstyle-nums;
-    -moz-font-feature-settings: 'onum';
-    -ms-font-feature-settings: 'onum';
-    -webkit-font-feature-settings: 'onum';
-    font-feature-settings: 'onum';
+    
+}
+
+article .copy a:link, 
+article .copy a:visited {
+    background-image: linear-gradient(to bottom, transparent 50%, rgba(0, 0, 0, 0.25) 50%);
+    background-position: 0px 92%;
+    background-size: 2px 2px;
+    background-repeat: repeat-x;
+    background-color: transparent;
+    transition: color 0.25s, text-shadow 0.25s, filter 0.25s;
 }
 
 article p, 
@@ -335,22 +339,22 @@ article ul,
 article { 
     margin-right: auto; 
     margin-left: auto; 
-    max-width: 30rem; 
+    max-width: calc(21 * 1.25rem); 
 }
 
 article ul { 
-    padding-left: 1.3rem; 
+    padding-left: 1.25rem; 
 }
 
 blockquote p { 
-    padding-left: 1.3rem;
-    max-width: calc(30rem - 1.3rem); 
+    padding-left: 1.25rem;
+    max-width: calc(21 * 1.25rem - 1.25rem); 
 }
 
 article .date { 
-    margin-top: 0.65rem; 
+    margin-top: calc(0.5 * 1.25rem); 
     text-align: left; 
-    padding-left: 1.3rem; 
+    padding-left: 1.25rem; 
     color: #777; 
 }
 
@@ -362,7 +366,7 @@ article .date {
     article h1, 
     article .date { 
         text-align: left; 
-        margin-left: 1.3rem; 
+        margin-left: 1.25rem; 
     }
 
     article p,
@@ -372,6 +376,45 @@ article .date {
         margin-left: 0; 
     } */
 }
+
+/* List -------------------------------------- */ 
+.list {
+    max-width: calc(21 * 1.25rem); 
+    margin: 0 auto; 
+}
+
+.list h1 { 
+    padding-bottom: 1.25rem;
+}
+
+.list ul {
+    margin: 0; 
+}
+
+.list ul li { 
+    padding-left: 1.25rem; 
+    text-indent: -1.25rem; 
+}
+
+.list ul li + li { 
+    margin-top: 0; 
+}
+
+.list ul > li:before {
+    content: none; 
+}
+
+/* Images ------------------------------------ */ 
+.images { 
+    text-align: center; 
+}
+
+.image-wrapper { 
+    display: inline-block; 
+    margin-top: 1.25rem; 
+    max-width: calc(15 * 1.25rem); 
+}
+
 
 /* Tags & permalink (unused) ----------------- */ 
 .tags, 
@@ -402,13 +445,13 @@ article .date {
 
 /* Pagination -------------------------------- */ 
 #pagination {
-    margin-top: 2.6rem;
-    margin-bottom: 2.6rem; 
+    margin-top: calc(2 * 1.25rem);
+    margin-bottom: calc(2 * 1.25rem); 
 }
 
 .post-nav {
-    margin-top: 2.6rem;
-    margin-bottom: 3.9rem; 
+    margin-top: calc(2 * 1.25rem);
+    margin-bottom: calc(3 * 1.25rem); 
 }
 
 /* Image modal -------------------------------- */ 
@@ -420,6 +463,7 @@ article .date {
     min-height: 100%; 
     z-index: 10; 
     background-color: white; 
+    cursor: zoom-out; 
 }
 
 #image-nav, 

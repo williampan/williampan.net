@@ -25,19 +25,28 @@
 <body>
 	<div id="content">
 	<div class="container">
-		<div class="column">
+		<!--<div class="column">
 			{{ partial "nav.html" . }}
-		</div>
+		</div>-->
+		<header>
+			<div class="site-title">
+				<a href="/">WP</a>
+			</div>
+			<nav>
+				<a href="/photography">Photography</a>
+				<a href="/posts">Writing</a>
+				<a href="/software">Software</a>
+				<a href="/about">About</a>
+
+			</nav>
+		</header>
+
+		
 		{{ block "main" . }}{{ end }}
 	</div>
 	
 	<!-- Image modal --> 
 	<div id="image-modal" class="hide"> 
-		<div id="image-nav">
-			<button type="button" id="prev-image-button">previous</button>
-			<button type="button" id="next-image-button">next</button>
-		</div>
-		<button type="button" id="close-image-button">close</button>
 		<img id="modal-image">
 	</div>
 	<footer>

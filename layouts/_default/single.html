@@ -5,7 +5,9 @@
 	<article>
 		<h1 class="title">{{ .Title | markdownify }}</h1>
 		<div class="copy">{{ .Content }}</div>
-		<div class="date">{{ .Date.Format "January 2006" }}</div>
+		{{ with .Date }}
+			<div class="date">{{ .Format "January 2006" }}</div>
+		{{ end}}
 	</article>
 </main>
 {{ end }}
