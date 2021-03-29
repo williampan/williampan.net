@@ -1,7 +1,7 @@
 {{ define "title"}}{{ .Title }} · {{ .Site.Title }}{{ end }}
 
 {{ define "main" }}
-<main class="column">
+<main class="{{ .Type }}">
 	<article>
 		<h1 class="title">{{ .Title | markdownify }}</h1>
 		<div class="copy">{{ .Content }}</div>
