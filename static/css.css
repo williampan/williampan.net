@@ -233,43 +233,6 @@ nav a {
     }
 }
 
-
-/* Site navigation --------------------------------- */ 
-/* nav { 
-    text-align: left; 
-    max-width: calc(10 * 1.25rem); 
-    font-size: 1rem; 
-    margin-right: calc(1.25rem)
-}
-
-nav h1 { 
-    margin-top: calc(0.5 * 1.25rem); 
-    margin-left: 1.25rem; 
-}
-
-nav ul { 
-    margin-left: 0; 
-}
-
-nav ul li { 
-    margin: 0; 
-    padding-left: 1.25rem; 
-    text-indent: -1.25rem; 
-}
-
-nav ul li:before { 
-    content: none; 
-}
-
-nav ul li a:link, 
-nav ul li a:visited { 
-    background-image: none; 
-}
-
-nav .date { 
-    color: #777; 
-} */
-
 /* Home ---------------------------------- */ 
 .home {
     margin: 1.25rem auto; 
@@ -334,12 +297,19 @@ article .copy a:visited {
     transition: color 0.25s, text-shadow 0.25s, filter 0.25s;
 }
 
-article p, 
-article ul, 
-article { 
+article .copy p, 
+article .copy ul,
+article .copy,
+article .date { 
     margin-right: auto; 
     margin-left: auto; 
     max-width: calc(21 * 1.25rem); 
+}
+
+article .copy p img {
+    max-width: none; 
+    margin-left: 50%; 
+    transform: translateX(-50%); 
 }
 
 article ul { 
@@ -356,25 +326,6 @@ article .date {
     text-align: left; 
     padding-left: 1.25rem; 
     color: #777; 
-}
-
-@media screen and (max-width: 900px) { 
-    /* header { 
-        text-align: left; 
-    }
-    
-    article h1, 
-    article .date { 
-        text-align: left; 
-        margin-left: 1.25rem; 
-    }
-
-    article p,
-    article ul, 
-    article { 
-        margin-right: 0; 
-        margin-left: 0; 
-    } */
 }
 
 /* List -------------------------------------- */ 
@@ -415,33 +366,6 @@ article .date {
     max-width: calc(15 * 1.25rem); 
 }
 
-
-/* Tags & permalink (unused) ----------------- */ 
-.tags, 
-.permalink {
-    padding-bottom: 1rem; 
-}
-
-.permalink a {
-    border: none;
-}
-
-.tags {
-    max-width: 400px;
-    margin: 20px auto 0; 
-    text-align: center;
-    line-height: 2.0; 
-}
-
-.tags a {
-    color: #888;
-    border-bottom-color: #888;
-}
-
-.tag {
-    display: inline-block;
-    clear: none;
-}
 
 /* Pagination -------------------------------- */ 
 #pagination {
@@ -489,5 +413,3 @@ article .date {
     max-width: 100%;
     max-height: 100%;  
 }
-
-
