@@ -1,6 +1,6 @@
 ---
-Title: The Fisherman
-display: “The Fisherman”, from the *Songs of Chu*
+Title: The fisherman
+display: “The fisherman”, from the *Songs of Chu*
 ---
 > Qu Yuan, recently exiled, wandered the rivers and lakes, walking and singing by the shores of ponds. His countenance was sallow, his posture haggard. A fisherman saw him and asked, “Are you not the Lord of the Three Villages? Why have you arrived here?”
 >
@@ -22,4 +22,4 @@ display: “The Fisherman”, from the *Songs of Chu*
 > 
 > 漁父莞爾而笑，鼓枻而去，乃歌曰： 「<span class="proper-name">滄浪</span>之水淸兮，可以濯吾纓， <span class="proper-name">滄浪</span>之水濁兮，可以濯吾足。」 遂去，不復與言。 
 
-My translation of [*Yufu* 漁父](https://en.wikipedia.org/wiki/Yu_Fu), “The Fisherman”, a narrative poem from the *Songs of Chu*, which was first anthologized in the second century. Shortly after the events described here, Qu Yuan drowns himself in the Miluo River.
+My translation of [*Yufu* 漁父](https://en.wikipedia.org/wiki/Yu_Fu), “The fisherman”, a narrative poem from the *Songs of Chu*, which was first anthologized in the second century. Shortly after the events described here, Qu Yuan drowns himself in the Miluo River.

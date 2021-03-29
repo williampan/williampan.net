@@ -1,5 +1,5 @@
 ---
-title: An Approach to Learning Chinese
+title: An approach to learning Chinese
 ---
 This is a general approach to studying [Standard Chinese](https://en.wikipedia.org/wiki/Standard_Chinese) that I feel isn't used often enough. It is based on my own experience with and intuitions about the language, and is also influenced by [this blog post](https://languagelog.ldc.upenn.edu/nll/?p=189) and others by Victor Mair, which I recommend reading as well. In general, I think that students should focus much less on the characters and much more on the spoken language than is often demanded by textbooks and teachers. 
 

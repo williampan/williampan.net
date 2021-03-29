@@ -1,5 +1,5 @@
 ---
-Title: A Performance
+Title: A performance
 ---
 It is the night of 8 July. Dad is on a plane to Taiwan, soon to be welcomed by a typhoon, and meanwhile a group of staff and schoolchildren and parents have recently arrived from Fuhsing School in Taipei, and after a couple days of rehearsals and activity at Westmont College they shall perform, tonight. My brother is already there, rehearsing with the orchestra, for the Santa Barbara Youth Symphony had sent out an email to its members asking if anyone wanted to play with the Fuhsing Orchestra, and if so here are the parts, and the rehearsals are on these days.
 

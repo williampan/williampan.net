@@ -1,8 +1,8 @@
 ---
-title: Long Locked by Dust
-display: Chai Lingyu, "Enlightenment Poem"
+title: Long locked by dust
+display: Chai Lingyu, "Enlightenment poem"
 ---
-“Enlightenment Poem” (悟道詩) by the Song-dynasty monk Chai Lingyu 柴陵郁 (ca. 11th c.): 
+“Enlightenment poem” (悟道詩) by the Song-dynasty monk Chai Lingyu 柴陵郁 (ca. 11th c.): 
 
 
 > I have a shining pearl  
