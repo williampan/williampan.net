@@ -32,10 +32,10 @@ html, body {
     padding: 0;
     margin: 0;
     font-variant-numeric: oldstyle-nums;
-    -moz-font-feature-settings: 'onum';
+    -moz-font-feature-settings: 'onum' 1;
     -ms-font-feature-settings: 'onum';
     -webkit-font-feature-settings: 'onum';
-    font-feature-settings: 'onum';
+    font-feature-settings: 'onum' 1;
 }
 
 img {
@@ -173,6 +173,8 @@ abbr,
 #content {
     padding: 1.25rem 1.25rem calc(3 * 1.25rem); 
     margin: 0 auto; 
+    background: #fff;  
+    min-height: 100vh; 
 }
 /* END: Content container */ 
 
@@ -250,8 +252,8 @@ article {
 h1.title { 
     margin-top: calc(0.5 * 1.25rem); 
     text-align: center; 
-    font-feature-settings: "c2sc" 1; 
-    letter-spacing: 2px;
+    font-feature-settings: 'c2sc' 1, 'smcp' 1; 
+    letter-spacing: 1px;   
 }
 
 h2 { 
@@ -265,9 +267,9 @@ h1.title + .copy {
 }
 
 article figcaption { 
-    margin-top: 1.25em; 
+    margin-top: calc(0.5 * 1.25em); 
     margin-bottom: 1.25em; 
-    margin-left: 1.25rem; 
+    font-size: 0.9em; 
 }
 
 article img {
@@ -386,7 +388,7 @@ article .date {
     width: 100%; 
     min-height: 100%; 
     z-index: 10; 
-    background-color: white; 
+    background-color: #fff; 
     cursor: zoom-out; 
 }
 

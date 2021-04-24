@@ -1,3 +1,3 @@
 ---
-title: Writing and Translations
+title: Writing and translations
 ---
