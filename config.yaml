@@ -9,6 +9,7 @@ frontmatter:
     - :filename
     - :default
 permalinks: 
+  posts: /posts/:slug
 blackfriday: 
   fractions: false
   extensionsmask: 
