@@ -167,6 +167,10 @@ abbr,
     letter-spacing: 1px;
 }
 
+[lang="zh"] {
+    font-size: 0.9em; 
+}
+
 /* END: Defaults */ 
 
 /* Content container ------------------------- */ 
@@ -266,6 +270,7 @@ h1.title + .copy {
     margin-top: 1.25rem; 
 }
 
+/* Figure */ 
 article figcaption { 
     margin-top: calc(0.5 * 1.25em); 
     margin-bottom: 1.25em; 
@@ -282,6 +287,13 @@ article img {
 
 article img + img {
     margin-top: calc(0.5 * 1.25rem);
+}
+
+article iframe {
+    display: block; 
+    margin: 0 auto; 
+    text-align: center; 
+    margin-bottom: 1.25rem; 
 }
 
 article .copy {
