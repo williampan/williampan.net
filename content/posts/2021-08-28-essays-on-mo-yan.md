@@ -11,3 +11,7 @@ I recently read [this brief interview with Brendan O'Kane](https://theanthill.or
 * Perry Link, "[Why we should criticize Mo Yan](https://www.nybooks.com/daily/2012/12/24/why-criticize-mo-yan/)", *The New York Review*, 24 December 2012 (paywalled; reprinted [here](https://blogs.harvard.edu/guorui/2012/12/27/perry-link-why-we-should-criticize-mo-yan/))
 
 I myself have barely read any Mo Yan; I started his first and most famous novel, *Red sorghum clan* (<span lang="zh">紅高粱家族</span>) but was unable to get more than a few dozen pages in before I lost interest---largely because of this exact issue with his language. 
+
+Also worth reading is this interview, again with O'Kane, on the *Los Angeles Review of Books* China blog: 
+
+* Jeffrey Wasserstrom, "[Of literature and laureates, translations and trends: a Q & A with blogger, tweeter, translator, and 'model worker' Brendan O'Kane](https://tumblr.lareviewofbooks.org/post/58935936943/of-literature-and-laureates-translations-and)", 21 August 2013
