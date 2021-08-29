@@ -1,3 +1,3 @@
 ---
-title: Writing and translations
+title: Blog
 ---
