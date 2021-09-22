@@ -30,7 +30,7 @@ wp.initImages = function () {
             image.style.cursor = 'zoom-in'; 
             image.addEventListener('click', function () { 
                 imageModal.classList.remove('hide'); 
-                setImage(images, index); 
+                setImage(images, index);   
             }); 
         }); 
     }); 

@@ -27,13 +27,13 @@
 	<div class="container">
 		<header>
 			<div class="site-title">
-				<a href="/">WP</a>
+				<a {{ if .Page.IsSection }} href="/" {{ else }} href="/posts" {{ end }}>WP</a>
 			</div>
-			<nav>
+			<!-- <nav>
 				<a href="/posts">Blog</a>
 				<a href="/software">Software</a>
 				<a href="/about">About</a>
-			</nav>
+			</nav> -->
 		</header>
 		{{ block "main" . }}{{ end }}
 	</div>

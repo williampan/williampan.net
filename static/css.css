@@ -102,7 +102,6 @@ ol {
     
 ul {
     list-style-type: none; 
-    margin-left: 2rem;
 } 
     ul > li:before {
         position: absolute;
@@ -179,29 +178,25 @@ abbr,
     margin: 0 auto; 
     background: #fff;  
     min-height: 100vh; 
+    max-width: calc(28 * 1.25rem); 
 }
 /* END: Content container */ 
 
 /* Site header ------------------------------- */ 
 header { 
-    text-align: center;
+    text-align: left;
     width: 100%; 
     padding-bottom: 1.25rem;
 }
 
 header .site-title {
-    margin: 0 auto; 
     letter-spacing: 1px; 
     font-feature-settings: "c2sc" 1;
 }
 
-header nav {
-    margin: 0 auto; 
-}
-
 nav a {
     display: inline-block; 
-    padding: 0 10px; 
+    padding-right: 20px; 
 }
  
 /* END: Site header */ 
@@ -255,19 +250,18 @@ article {
 
 h1.title { 
     margin-top: calc(0.5 * 1.25rem); 
-    text-align: center; 
-    font-feature-settings: 'c2sc' 1, 'smcp' 1; 
-    letter-spacing: 1px;   
+    font-feature-settings: 'smcp' 1; 
+    letter-spacing: 1px;  
+    padding-left: calc(1 * 1.25rem);
 }
 
 h2 { 
-    margin-top: 1.25rem; 
-    margin-bottom: calc(0.5 * 1.25rem); 
+    margin-top: calc(0.5 * 1.25rem); 
     margin-left: 1.25rem; 
 }
 
 h1.title + .copy { 
-    margin-top: 1.25rem; 
+    margin-top: calc(0.5 * 1.25rem); 
 }
 
 /* Figure */ 
@@ -298,7 +292,6 @@ article iframe {
 
 article .copy {
     text-align: left;
-    
 }
 
 article .copy a:link, 
@@ -315,8 +308,6 @@ article .copy p,
 article .copy ul,
 article .copy,
 article .date { 
-    margin-right: auto; 
-    margin-left: auto; 
     max-width: calc(21 * 1.25rem); 
 }
 
@@ -345,11 +336,6 @@ article .date {
 /* List -------------------------------------- */ 
 .list {
     max-width: calc(21 * 1.25rem); 
-    margin: 0 auto; 
-}
-
-.list h1 { 
-    padding-bottom: 1.25rem;
 }
 
 .list ul {
